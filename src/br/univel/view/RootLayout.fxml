@@ -38,5 +38,6 @@
       </GridPane>
       <Button layoutX="365.0" layoutY="167.0" maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Salvar" />
       <Button layoutX="442.0" layoutY="167.0" maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Excluir" />
+      <Button layoutX="520.0" layoutY="167.0" maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Limpar" />
    </children>
 </AnchorPane>
