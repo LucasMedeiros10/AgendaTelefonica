@@ -22,6 +22,7 @@
         </rowConstraints>
          <children>
             <Label text="ID" />
+            <Label text="Nome" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </children>
