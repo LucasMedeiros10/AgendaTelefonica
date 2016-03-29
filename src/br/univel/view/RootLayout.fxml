@@ -23,6 +23,7 @@
          <children>
             <Label text="ID" />
             <Label text="Nome" GridPane.rowIndex="1" />
+            <Label text="Telefone" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
