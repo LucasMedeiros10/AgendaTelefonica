@@ -26,12 +26,12 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="ID" GridPane.rowIndex="1" />
-            <Label text="Nome" GridPane.rowIndex="2" />
-            <Label text="Telefone" GridPane.rowIndex="3" />
-            <TextField maxWidth="60.0" prefWidth="60.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField maxWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField maxWidth="180.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="labelID" text="ID" GridPane.rowIndex="1" />
+            <Label fx:id="labelNome" text="Nome" GridPane.rowIndex="2" />
+            <Label fx:id="labelTelefone" text="Telefone" GridPane.rowIndex="3" />
+            <TextField fx:id="txtID" maxWidth="60.0" prefWidth="60.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtNome" maxWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtTelefone" maxWidth="180.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <Label prefHeight="35.0" prefWidth="392.0" text="Agenda Telefônica" textAlignment="CENTER" textOverrun="CLIP" GridPane.columnSpan="2">
                <font>
                   <Font name="System Bold" size="24.0" />
@@ -41,16 +41,16 @@
       </GridPane>
       <HBox layoutX="332.0" layoutY="166.0" spacing="5.0">
          <children>
-            <Button maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Salvar" />
-            <Button maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Excluir" />
-            <Button maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Limpar" />
+            <Button fx:id="btnSalvar" maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Salvar" />
+            <Button fx:id="btnExcluir" maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Excluir" />
+            <Button fx:id="btnLimpar" maxWidth="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Limpar" />
          </children>
       </HBox>
-      <TableView layoutX="14.0" layoutY="207.0" prefHeight="283.0" prefWidth="541.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+      <TableView fx:id="GridRegistros" layoutX="14.0" layoutY="207.0" prefHeight="283.0" prefWidth="573.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
         <columns>
-          <TableColumn maxWidth="170.0" prefWidth="74.0" text="ID" />
-          <TableColumn maxWidth="500.0" prefWidth="87.0" text="Nome" />
-            <TableColumn maxWidth="500.0" prefWidth="174.0" text="Telefone" />
+          <TableColumn fx:id="ColunaID" maxWidth="170.0" prefWidth="74.0" text="ID" />
+          <TableColumn fx:id="ColunaNome" maxWidth="500.0" prefWidth="87.0" text="Nome" />
+            <TableColumn fx:id="ColunaTelefone" maxWidth="500.0" prefWidth="174.0" text="Telefone" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
