@@ -25,9 +25,9 @@
             <Label text="ID" GridPane.rowIndex="1" />
             <Label text="Nome" GridPane.rowIndex="2" />
             <Label text="Telefone" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField maxWidth="60.0" prefWidth="60.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField maxWidth="400.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField maxWidth="180.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <Label prefHeight="35.0" prefWidth="392.0" text="Agenda Telefônica" textAlignment="CENTER" textOverrun="CLIP" GridPane.columnSpan="2">
                <font>
                   <Font name="System Bold" size="24.0" />
