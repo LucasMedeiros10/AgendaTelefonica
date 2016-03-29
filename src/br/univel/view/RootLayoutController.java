@@ -7,6 +7,12 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
+/**
+ * Controller para RootLayout
+ * @author LucasM
+ *
+ */
+
 public class RootLayoutController {
 
     @FXML
